@@ -1,0 +1,435 @@
+body {
+font-family: "Poppins", serif;
+margin: 0;
+padding: 0;
+background-color: #222831;
+color:#eee;
+box-sizing: border-box;
+}
+
+
+/*NAVBAR STARTS HERE*/
+.navbar-parent {
+    height: 100vh;
+    background-color: #222831;
+    border-bottom-style: solid; 
+    border-color: #eeeeee;
+
+}
+.navbar{
+    background-color: #222831;
+}
+.logo {
+    width: 301px;
+    height: 132px;
+    padding: 48px 96px;
+    gap: 10px;
+}
+.logo-text{
+    color: #eeeeee;
+    font-family: "Oswald", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.27px;
+}
+.menu {
+    gap: 20px;
+    width: 502px;
+    padding: 48px 96px;
+    gap: 48px;
+}
+.menu li {
+ list-style-type: none;
+ 
+}
+.menu li a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px; 
+}
+
+.menu li a:hover {
+    color: gray;
+}
+.togglebtn {
+    color: #eee;
+    display: none;
+}
+/*NAVBAR ENDS HERE*/
+
+/*HEROSECTION STARTS HERE*/
+
+.herosection-parents {
+    height: 100vh;
+
+}
+.herosection {
+    background-color: #222831;
+    width: 100%;
+    height: 892px;
+    gap: 20px;
+}
+.herosection-content{
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.herosection-content h2{
+   
+    color: #eeeeee;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+}
+.h2-span {
+    font-size: 123px;
+    margin-top: 100px;
+    color: #00adb5;
+}
+.herosection-btn{
+    gap: 20px;
+}
+.h-btn-1{
+    padding: 10px 32px;
+    border-radius: 24px;
+    border: none;
+    background-color: #00adb5;
+}
+.h-btn-1:hover {
+    background-color: #393e46;
+    color: #eee;
+}
+.h-btn-2{
+    padding: 10px 50px;
+    border-radius: 24px;
+    color: #eeeeee;
+    border: none;
+    background-color: #393e46;
+    
+}
+.h-btn-2:hover {
+    background-color: #5f646d;
+    color: #fff;
+}
+.hero-img {
+    width: 50%;
+    height: 400px;
+    margin-top: 120px;
+    margin-right: 200px;
+}
+.down-btn-parent {
+    align-items: center;
+}
+.down-btn {
+    width: 400px;
+   
+}
+/*HEROSECTION ENDS HERE*/
+
+/*ABOUT ME SECTION STARTS HERE*/
+.container {
+   height: 100vh;
+    background-color: #222831;
+    margin-top: 100px;
+}
+
+.about-me-content {
+color: #eee;
+background-color: #222831;
+}
+.about-me-content h2 {
+font-size: 64px;
+font-weight: 700;
+}
+.about-me-content a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: 700;
+    font-family: 18px;
+}
+.img-container { 
+    background-color: #222831;
+    position: relative;
+}
+
+.top-img {
+    position: absolute;
+    top: 65px;
+    left: 111px;
+}
+
+    
+
+/*ABOUT ME SECTION ENDS HERE*/
+
+
+/*ABOUT ME SECTION ENDS HERE*/
+.works-container {
+    width: 100%;
+    height: 800px;
+    background-image: url('../assets/images/doodleitems.png'); 
+    background-repeat: repeat;
+    background-size:auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    align-items: center;
+    
+}
+.works-container  h2{
+    color: #eee;
+    font-size: 64px;
+margin-left: 116px;
+font-weight: 700;
+}
+
+.worklist {
+    border: none;
+    border-radius: 24px;
+    justify-content: flex-start;
+    margin-left: 116px;
+}
+
+.worklist li {
+    list-style: none;
+    padding: 10px 30px;
+    background-color: rgba(74, 70, 70, 0.329);
+    border-radius: 24px;
+    gap: 100px;
+    margin-left: 10px;
+    
+   
+}
+.worklist li a {
+    color: #eee;
+    text-decoration: none;
+
+}
+.worklist li:hover {
+background-color: rgba(88, 219, 255, 0.301);
+}
+
+.workcards{
+    margin-left: 116px;
+    gap:5px;
+}
+
+.wcards1  col-4 {
+    width: 313px;
+    height: 258px;
+    padding: 500px;
+    background-color: rgba(66, 63, 63, 0.479);
+    border-radius: 12px;
+}
+
+
+/*WORKS SECTION ENDS HERE*/
+
+
+
+.form-contain {
+    width: 100%;
+    color: #eee;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-content{
+    width: 50%;
+    margin-left: 140px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+    
+}
+
+.form-text h2{
+    color: #eee;
+    font-size: 64px;
+    font-weight: 700;
+   
+
+}
+.form-h2-span {
+    font-size: 100x;
+}
+.form-img {
+    width: 300px;
+   position: absolute;
+   top: 150px;
+   left: 116px;
+}
+
+
+.contact-form {
+
+    width: 50%;
+
+    
+
+}
+
+.layer {
+    gap: 30px;
+    margin-top: 400px;
+}
+
+.formbtn {
+    text-decoration: none;
+    color: #222831;
+    text-shadow: 1px 1px #64636363;
+}
+.layer form input {
+    background-color: #5f646d;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #eee;
+    border: none;
+
+}
+.layer form input::placeholder {
+    margin-left: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #eee;
+
+}
+.txtareaa {
+    background-color: #5f646d;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.layer2 form textarea {
+    background-color: #5f646d;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.footer-container {
+    margin-top: 200px;
+    height: 25vh;
+}
+.footer-list {
+    justify-content: center;
+    gap: 50px;
+
+
+}
+.footer-list li {
+    list-style-type: none;
+    padding: ;
+    
+}
+.footer-list li a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.footer-icon-list {
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+.footer-icon-list li {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #5f646d;
+    border: none;
+    border-radius: 50px;
+    
+}
+.footer-icon-list li a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.terms {
+    justify-content:flex-end;
+    gap: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.terms li {
+    list-style-type: none;
+
+}
+.terms li a {
+    text-decoration: none;
+    color: #eee;
+}
+.terms li:hover a:hover, 
+.footer-icon-list li:hover a:hover,
+.footer-list li:hover a:hover {
+    color: #5f646d;
+}
+
+/*RESPONSIVE CSS*/
+@media (max-width: 1400px) and (min-width: 1100px) {
+ .hero-img {
+        width: 50%;
+        height: 400px;
+        margin-top: 120px;
+        margin-right: 200px;
+ }
+}
+
+@media (max-width: 1200px) and (min-width: 200px) {
+    .menu, .menu li, .menu li a {
+        display: none;
+    }
+    .togglebtn {
+        display: block;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1110px) and (min-width: 600px) {
+
+    .container {
+        height: 100vh;
+         background-color: #222831;
+         margin-top: 100px;
+     }
+     
+     .about-me-content {
+     color: #eee;
+     background-color: #222831;
+     }
+     .about-me-content h2 {
+     font-size: 48px;
+     font-weight: 600;
+     }
+     .about-me-content a {
+         text-decoration: none;
+         color: #eee;
+         font-weight: 700;
+         font-family: 18px;
+     }
+     .img-container { 
+         background-color: #222831;
+         position: relative;
+         width: 300px;
+     }
+     .bg-img {
+        width: 40vw;
+
+     }
+     .top-img {
+        width: 40vw;
+         position: fi;
+         top: 65px;
+         left: 111px;
+     }
+     
+
+}
